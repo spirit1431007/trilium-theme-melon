@@ -285,7 +285,7 @@ div#root-widget div#left-pane .dropdown-menu a {
 
 div#root-widget div#left-pane span.fancytree-node:hover { 
     background-color: var(--color-blue-light);
-    border: none;
+    border: 1px solid var(--color-blue-light);
     color: white;
 }
 
@@ -450,7 +450,6 @@ div#center-pane .switch .slider.checked::before {
 }
 
 
-
 /* ----------- NOTEBOOK CARDS ----------- */
 
 div#center-pane .note-book-card {
@@ -562,4 +561,7 @@ div.tooltip.note-tooltip pre {
 
 #center-pane code {
   font-family: var(--main-font-family-mono);
+}
+.btn.focus, .btn:focus{
+    box-shadow: none
 }
